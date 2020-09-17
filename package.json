@@ -1,10 +1,10 @@
 {
-  "name": "@ericblade/mws-advanced",
-  "version": "2.4.2",
-  "description": "Modern, fully featured, very opinionated node javascript Amazon MWS API based on @ericblade/mws-simple",
+  "name": "@29aries/mws-advanced",
+  "version": "1.0.0",
+  "description": "Modern, fully featured, very opinionated node javascript Amazon MWS API. Forked from @ericblade/mws-advanced",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/ericblade/mws-advanced"
+    "url": "https://github.com/29aries/mws-advanced"
   },
   "scripts": {
     "coverage-codebeat": "./send-coverage",
@@ -24,8 +24,7 @@
   "pre-commit": [
     "lint-staged"
   ],
-  "author": "Eric Blade <blade.eric@gmail.com>",
-  "license": "Apache-2.0",
+  "author": "Vukasin Pesic <vukasin@comit.co.rs>",
   "dependencies": {
     "@ericblade/mws-simple": "^5.1.2",
     "es6-error": "^4.1.1"
